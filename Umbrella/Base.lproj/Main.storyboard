@@ -34,19 +34,19 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3xu-gR-kIO">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" title="Stop Recording"/>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="142" y="372" width="117" height="30"/>
-                                </variation>
+                                <connections>
+                                    <action selector="stopRecording:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UgI-q1-lBC"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="ZMW-9e-pgG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0cn-jc-iMW"/>
-                            <constraint firstItem="VJj-4T-OYR" firstAttribute="centerX" secondItem="ZMW-9e-pgG" secondAttribute="centerX" id="6FL-EW-xrX"/>
-                            <constraint firstItem="3xu-gR-kIO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9gK-nf-wv1"/>
                             <constraint firstItem="ZMW-9e-pgG" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="AcR-cf-ODS"/>
-                            <constraint firstItem="VJj-4T-OYR" firstAttribute="top" secondItem="ZMW-9e-pgG" secondAttribute="bottom" constant="17" id="e6F-fh-Z04"/>
-                            <constraint firstItem="3xu-gR-kIO" firstAttribute="top" secondItem="VJj-4T-OYR" secondAttribute="bottom" constant="19" id="kKv-Tc-bLu"/>
+                            <constraint firstItem="VJj-4T-OYR" firstAttribute="top" secondItem="ZMW-9e-pgG" secondAttribute="bottom" constant="17" id="KBO-rm-b1t"/>
+                            <constraint firstItem="3xu-gR-kIO" firstAttribute="top" secondItem="VJj-4T-OYR" secondAttribute="bottom" constant="19" id="ncE-fs-hcY"/>
+                            <constraint firstItem="VJj-4T-OYR" firstAttribute="centerX" secondItem="ZMW-9e-pgG" secondAttribute="centerX" id="oRy-Kz-fYs"/>
+                            <constraint firstItem="3xu-gR-kIO" firstAttribute="centerX" secondItem="VJj-4T-OYR" secondAttribute="centerX" id="rvQ-0o-qjS"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
@@ -57,10 +57,10 @@
                             <mask key="constraints">
                                 <exclude reference="0cn-jc-iMW"/>
                                 <exclude reference="AcR-cf-ODS"/>
-                                <exclude reference="6FL-EW-xrX"/>
-                                <exclude reference="e6F-fh-Z04"/>
-                                <exclude reference="9gK-nf-wv1"/>
-                                <exclude reference="kKv-Tc-bLu"/>
+                                <exclude reference="KBO-rm-b1t"/>
+                                <exclude reference="oRy-Kz-fYs"/>
+                                <exclude reference="ncE-fs-hcY"/>
+                                <exclude reference="rvQ-0o-qjS"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -72,10 +72,10 @@
                             <mask key="constraints">
                                 <include reference="0cn-jc-iMW"/>
                                 <include reference="AcR-cf-ODS"/>
-                                <include reference="6FL-EW-xrX"/>
-                                <include reference="e6F-fh-Z04"/>
-                                <include reference="9gK-nf-wv1"/>
-                                <include reference="kKv-Tc-bLu"/>
+                                <include reference="KBO-rm-b1t"/>
+                                <include reference="oRy-Kz-fYs"/>
+                                <include reference="ncE-fs-hcY"/>
+                                <include reference="rvQ-0o-qjS"/>
                             </mask>
                         </variation>
                     </view>
